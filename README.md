@@ -1,6 +1,6 @@
 # reaction
 
-A simple wrapper for Browserify and React for gulp.js
+A simple wrapper of Browserify and React for gulp.js
 
 ## Usage
 

@@ -1,6 +1,6 @@
 {
   "name": "react-reaction",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gulp wrapper for Browserify and React",
   "main": "reaction.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "Eduardo Trujillo <ed@chromabits.com>",
   "license": "MIT",
   "dependencies": {
-    "browserify": "^8.1.1",
+    "browserify": "^6.2.0",
     "react-tools": "^0.12.2",
     "through": "^2.3.6",
     "vinyl-transform": "^1.0.0"

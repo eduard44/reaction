@@ -7,14 +7,11 @@ var browserify = require('browserify'),
 /**
  * Reaction
  *
- * A simple Gulp helper that combines Browserify and React Tools
- *
- * @param {Object} options - Options to be passed to the React
- * transform
+ * A simple Gulp helper that combines Browserify and Babelify
  *
  * @returns {Function} -
  */
-var reaction = function (options) {
+var reaction = function () {
     return transform(function(filename) {
         var b = browserify(filename);
 

@@ -11,11 +11,11 @@ var browserify = require('browserify'),
  *
  * @returns {Function} -
  */
-var reaction = function () {
-    return transform(function(filename) {
+var reaction = function (options) {
+    return transform(function (filename) {
         var b = browserify(filename);
 
-        b.transform(babelify);
+        b.transform(babelify.configure(options));
 
         return b.bundle();
     });
